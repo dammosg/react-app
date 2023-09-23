@@ -1,0 +1,44 @@
+.hero {
+  background-color: white;
+}
+
+.txtDev {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.hero h1 {
+  margin-top: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+  
+.hero h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.imgDeveloper {
+  height: 300px;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .txtDev {
+    order: 1;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imgDev {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .row {
+    width: 950px;
+  }
+}

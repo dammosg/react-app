@@ -1,122 +1,40 @@
 import React from "react";
-import "./Grid.css";
 
 const Grid = () => {
   return (
     <>
-      <div className="container text-center">
-        <div className="row">
-          <div className="col">Columna 1</div>
-          <div className="col">Columna 2</div>
-        </div>
-        <div className="row">
-          <div className="col">Columna 1</div>
-          <div className="col">Columna 2</div>
-          <div className="col">Columna 3</div>
-        </div>
-      </div>
-
-      <div className="container text-center">
-        <div className="row">
-          <div className="col-sm-4 col-lg-6 columna">.col-sm-4 .col-lg-6</div>
-          <div className="col-sm-8 col-lg-6 columna">.col-sm-8 .col-lg-6</div>
-        </div>
-      </div>
-      <div className="accordion" id="accordionExample">
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              <i className="bi bi-bookmark-fill"></i>
-              Accordion Item #1
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            className="accordion-collapse collapse show"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              <i className="bi bi-bookmark"></i>
-              Accordion Item #2
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              <i className="bi bi-bookmark"></i>
-              Accordion Item #3
-            </button>
-          </h2>
-          <div
-            id="collapseThree"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-      </div>
+      <ul className="wrapper">
+        <li className="icon facebook">
+          <span className="tooltip">Facebook</span>
+          <span>
+            <i className="fab fa-facebook-f"></i>
+          </span>
+        </li>
+        <li className="icon twitter">
+          <span className="tooltip">Twitter</span>
+          <span>
+            <i className="fab fa-twitter"></i>
+          </span>
+        </li>
+        <li className="icon instagram">
+          <span className="tooltip">Instagram</span>
+          <span>
+            <i className="fab fa-instagram"></i>
+          </span>
+        </li>
+        <li className="icon github">
+          <span className="tooltip">Github</span>
+          <span>
+            <i className="fab fa-github"></i>
+          </span>
+        </li>
+        <li className="icon youtube">
+          <span className="tooltip">Youtube</span>
+          <span>
+            <i className="fab fa-youtube"></i>
+          </span>
+        </li>
+      </ul>
     </>
   );
 };

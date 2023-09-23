@@ -5,6 +5,11 @@ import NavBar from "./components/NavBar";
 import Carousel from "./components/Carousel";
 import Card from "./components/Card";
 import Grid from "./components/Grid";
+import Footer from "./components/Footer";
+import "./components/Styles.css";
+import Developer from "./components/Developer";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   const [alertVisible, setAlertVisibility] = useState(false);
@@ -12,7 +17,9 @@ function App() {
   return (
     <div>
       <NavBar></NavBar>
-      <Carousel></Carousel>
+      <Developer></Developer>
+      <About></About>
+      <Projects></Projects>
       {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>
           Hello <span> World </span>
@@ -21,6 +28,7 @@ function App() {
       <Card></Card>
       <Button onClick={() => setAlertVisibility(true)}>Click me pls</Button>
       <Grid></Grid>
+      <Footer></Footer>
     </div>
   );
 }
