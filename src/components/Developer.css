@@ -21,9 +21,14 @@
   font-weight: 400;
 }
 
-.imgDeveloper {
+.imgDev {
   height: 300px;
+  max-width: 300px;
+}
+
+.imgDeveloper {
   border-radius: 50%;
+  object-fit: contain;
 }
 
 @media (max-width: 991px) {

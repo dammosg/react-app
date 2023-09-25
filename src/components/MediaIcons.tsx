@@ -1,6 +1,6 @@
 import React from "react";
 
-const Grid = () => {
+const MediaIcons = () => {
   return (
     <>
       <ul className="wrapper">
@@ -39,4 +39,4 @@ const Grid = () => {
   );
 };
 
-export default Grid;
+export default MediaIcons;
