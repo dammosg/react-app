@@ -1,9 +1,10 @@
 import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
     <>
-      <section className="about-me section-dark">
+      <section className="about-me section-pair">
         <div className="container">
           <h2 className="section-title white-text">Meet Damian Sevilla</h2>
           <p className="section-text">
