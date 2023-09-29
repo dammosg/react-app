@@ -8,7 +8,7 @@ export class NavBar extends Component {
       <>
         <nav className="navbar navbar-expand-sm">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#dev-hero">
               <img src={logo} alt="Web page logo" height="50" />
             </a>
             <button
@@ -28,17 +28,21 @@ export class NavBar extends Component {
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="#dev-hero"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
+                  <a className="nav-link active" href="#about">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
+                  <a className="nav-link active" href="#exp">
                     Projects
                   </a>
                 </li>

@@ -9,12 +9,13 @@ import "./components/Styles.css";
 import Developer from "./components/Developer";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Sidebar from "./components/Sidebar";
 
 function App() {
-
   return (
     <div>
       <NavBar></NavBar>
+      <Sidebar></Sidebar>
       <Developer></Developer>
       <About></About>
       <Projects></Projects>

@@ -1,0 +1,38 @@
+.mobile-nav i {
+  color: black;
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.mobile-nav {
+  background-color: white;
+  height: 100vh;
+  /* display: none; */
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 201;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}

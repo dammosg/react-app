@@ -1,11 +1,12 @@
 import React from "react";
-
+import "./Projects.css";
 const Projects = () => {
   return (
     <>
-      <section className="projects section-odd">
+      <section className="projects section-odd" id="exp">
+        <h3 className="title">PROYECTS</h3>
         <div className="container text-center">
-          <div className="row">
+          <div className="row proj-content">
             <div className="column col-12 col-md-4">
               <i className="bi bi-laptop"></i>
               <p className="projects-title">Web Development</p>
