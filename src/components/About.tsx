@@ -4,7 +4,8 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <section className="about-me section-pair">
+      <section className="about-me section-pair" id="about">
+        <h3 className="title">ABOUT ME</h3>
         <div className="container">
           <h2 className="section-title white-text">Meet Damian Sevilla</h2>
           <p className="section-text">
@@ -16,11 +17,7 @@ const About = () => {
             quam non, condimentum urna. Phasellus eget efficitur velit. Ut
             pellentesque velit sed lacinia consequat. Ut id accumsan risus, a
             ullamcorper elit. Quisque vel tincidunt eros. Maecenas porttitor
-            ultrices ipsum, sed luctus erat maximus at. In hac habitasse platea
-            dictumst. Pellentesque viverra massa vitae enim tincidunt accumsan.
-            Nullam dolor ligula, blandit in tempor sit amet, sollicitudin et
-            dui. Etiam malesuada venenatis hendrerit. Suspendisse magna eros,
-            fermentum sit amet velit id, rhoncus aliquam lorem.
+            ultrices ipsum, sed luctus erat maximus at.
           </p>
         </div>
       </section>

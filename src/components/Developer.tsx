@@ -5,7 +5,7 @@ import "./Developer.css";
 const Developer = () => {
   return (
     <>
-      <section className="hero section-odd">
+      <section className="hero section-odd" id="dev-hero">
         <div className="row d-flex justify-content-center">
           <div className="col-12 col-lg-8 txtDev">
             <h1>FrontEnd Web Developer</h1>

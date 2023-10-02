@@ -1,11 +1,12 @@
 import React from "react";
 import MediaIcons from "./MediaIcons";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <>
       <section className="section-pair">
-        <div className="container">
+        <div className="footer">
           <footer className="d-flex flex-wrap align-items-center py-3 my-4 flex-column">
             <MediaIcons></MediaIcons>
             <div className="d-flex flex-wrap w-100 justify-content-between align-items-center py-3 my-4 border-top">
