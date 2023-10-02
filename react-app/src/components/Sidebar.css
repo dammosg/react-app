@@ -10,8 +10,8 @@
 .mobile-nav {
   background-color: white;
   height: 100vh;
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   position: fixed;
   top: 0;
   width: 100%;
