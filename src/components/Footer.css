@@ -1,3 +1,7 @@
+.sec-footer {
+  padding: 2rem !important;
+}
+
 .wrapper {
     display: inline-flex;
     list-style: none;

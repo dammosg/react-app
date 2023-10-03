@@ -1,5 +1,7 @@
 .proj-content {
   padding: 15px 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .projects i {
@@ -40,4 +42,10 @@
 
 .badge {
   margin: 5px;
+}
+
+@media (max-width: 1200px) {
+  .proj-content {
+    flex-direction: column;
+  }
 }

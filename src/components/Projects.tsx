@@ -6,8 +6,8 @@ const Projects = () => {
       <section className="projects section-odd" id="exp">
         <h3 className="title">PROYECTS</h3>
         <div className="container text-center">
-          <div className="row proj-content">
-            <div className="column col-12 col-md-4">
+          <div className="proj-content">
+            <div className="column">
               <i className="bi bi-laptop"></i>
               <p className="projects-title">Web Development</p>
               <p>
@@ -22,7 +22,7 @@ const Projects = () => {
                 <span className="badge text-bg-primary">REACT</span>
               </div>
             </div>
-            <div className="column col-12 col-md-4">
+            <div className="column">
               <i className="bi bi-laptop"></i>
               <p className="projects-title">Articles</p>
               <p>
@@ -37,7 +37,7 @@ const Projects = () => {
                 <span className="badge text-bg-primary">REACT</span>
               </div>
             </div>
-            <div className="column col-12 col-md-4">
+            <div className="column">
               <i className="bi bi-laptop"></i>
               <p className="projects-title">Studies</p>
               <p>

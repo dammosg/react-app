@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <section className="section-pair">
+      <section className="section-pair sec-footer">
         <div className="footer">
           <footer className="d-flex flex-wrap align-items-center py-3 my-4 flex-column">
             <MediaIcons></MediaIcons>
