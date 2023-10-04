@@ -10,16 +10,11 @@
   z-index: 200;
 }
 
-.nav-container {
-  padding: 16px;
-  width: 100%;
-}
-
-.nav-items {
+a, .nav-items {
   display: flex;
   list-style: none;
-  gap: 0.5em;
-  padding: 0;
+  gap: 1em;
+  padding: 1.5em;
   margin: 0;
 }
 
